@@ -1,0 +1,53 @@
+// vi: ft=jsonc
+{
+    "list.source.grep.excludePatterns": [".git", "node_modules"],
+    "coc.preferences.colorSupport": false,
+
+    "suggest.minTriggerInputLength": 2,
+    "suggest.triggerAfterInsertEnter": true,
+    "suggest.defaultSortMethod": "alphabetical",
+    "suggest.floatEnable": true,
+    "suggest.detailField": "abbr",
+    "suggest.echodocSupport": true,
+
+    "java.jdt.ls.home": "/Volumes/w/vimrc/plugged/language-server-wrappers/data/ls-java.data",
+    "go.goplsPath": "/Volumes/w/vimrc/plugged/language-server-wrappers/ls-go",
+
+    "java.jdt.ls.vmargs": "-javaagent:/Volumes/w/vimrc/plugged/language-server-wrappers/data/ls-java.data/lombok.jar -Xbootclasspath/a:/Volumes/w/vimrc/plugged/language-server-wrappers/data/ls-java.data/lombok.jar",
+    "java.codeGeneration.generateComments": false,
+    "java.format.onType.enabled": true,
+
+    "python.linting.enabled": false,
+    "python.linting.pylintPath": "/",
+    "python.linting.flake8Path": "/",
+    "python.linting.mypyPath": "/",
+    "python.jediPath": "/",
+
+    "metals.enable": true,
+    "metals.customRepositories": [
+        "http://mvn.test.alipay.net:8080/artifactory/repo/",
+        "http://mvn.dev.alipay.net:8080/artifactory/repo/",
+        // "http://maven.aliyun.com/repository/central/",
+        // "file:///Users/yuge.zl/.m2/repository/"
+    ],
+    "metals.serverVersion": "0.10.3+18-7ef52f21-SNAPSHOT",
+
+    "tsserver.enable": true,
+    "tsserver.enableJavascript": true,
+    "typescript.suggest.autoImports": true,
+    "typescript.suggest.enabled": true,
+    "typescript.updateImportsOnFileMove.enable": true,
+
+    "rust-analyzer.assist.importGroup": false,
+    "rust-analyzer.assist.importPrefix": "by_crate",
+    "rust-analyzer.updates.prompt": false,
+    "rust-analyzer.procMacro.enable": true,
+    "rust-analyzer.diagnostics.disabled": ["macro-error", "unresolved-proc-macro"],
+    "rust-analyzer.updates.channel": "nightly",
+
+    "languageserver": {
+    },
+
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "clangd.path": "/Users/yuge.zl/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd"
+}
